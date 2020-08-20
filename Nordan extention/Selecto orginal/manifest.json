@@ -1,0 +1,33 @@
+{ 
+    "manifest_version": 2, 
+    "name": "Selecto", 
+    "description": "Forbedrer leselighet med merking i arbeidspapirene", 
+    "version": "0.0.1", 
+    "author": "Tommy Gursli",
+    "browser_action": {   
+        "default_title": "Selecto", 
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "assets/images/marker.png"
+        }
+    },
+    
+    "permissions": ["<all_urls>", "declarativeContent"],
+    
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["assets/lib/jquery-3.4.1.min.js", "assets/js/content.js"]
+        }
+    ],
+
+    "icons": {
+        "128": "assets/images/marker.png"
+    }
+
+    
+
+}
+

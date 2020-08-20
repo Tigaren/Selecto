@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div div {
+    margin: 5px;
+}
+
+td.td {
+    border: 1px solid black;
+    height: 20px;
+    width: 10px;
+}

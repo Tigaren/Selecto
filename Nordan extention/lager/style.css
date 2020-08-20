@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 500px; /* your desired width */
+    max-width: 100%;
+    position: relative;
+    vertical-align:middle;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    width: 75%;
+}
+
+.checkBoxBox input {
+    width: 25%;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+.checkBoxBox {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.checkBox {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: center
+}
+
+.btnBox input {
+    height: 40px;
+    width: 150px;
+    justify-content: space-around;
+    margin: 8px 0; 
+    font-size: 26px;
+    text-transform: uppercase;
+}
+

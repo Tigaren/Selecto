@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>selecto</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="lib/jquery-3.4.1.slim.min.js"></script>
+    
+</head>
+    <body>
+        
+        <div class="container">
+            <div>
+                <h1>Velg din arbeids stasjon <br>og aktiver med knappen.</h1>
+                <div class="checkBoxBox">
+                    <label for="fast"><h2>Høvel Fast</h2></label>
+                    <input class="checkBox" type="radio" class="options" name="opt" id="fast">
+                </div>
+                <div class="checkBoxBox">
+                    <label for="lukk"><h2>Høvel Lukk</h2></label>
+                    <input class="checkBox" type="radio" class="options" name="opt" id="lukk">
+                </div>
+                <div class="checkBoxBox">
+                    <label for="kms"><h2>Kms</h2></label>
+                    <input class="checkBox" type="radio" class="options" name="opt" id="kms">
+                </div>
+                <div class="checkBoxBox null-container">
+                    <label for="null"><h2 class="null">Tilbakestill</h2></label>
+                    <input class="checkBox" type="radio" class="options" name="opt" id="null" checked>
+                </div>
+                <div class="btnBox">
+                    <button id="aktiver">aktiver</button>
+                </div>
+            </div> 
+        </div>
+        <script src="js/popup.js"></script>
+    </body>
+</html>
